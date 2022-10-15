@@ -257,4 +257,17 @@
 
 }
 
+.flexible {
+    background-image:url('../images/animation.gif') !important;
+}
 
+@media (max-width: 850px) {
+    .flexible {
+        /* background-image:url('../images/animation-small.gif') !important; */
+        background-image:url('../images/animation-smallest.gif') !important;
+    }
+
+    .custom-email {
+        font-size: 20px !important;
+    }
+}
