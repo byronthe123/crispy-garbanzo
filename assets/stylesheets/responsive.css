@@ -257,6 +257,17 @@
 
 }
 
+.social {
+    width: 75px;
+    height: auto;
+    transition: 300ms;
+    margin: 0 10px;
+}
+
+.social:hover {
+    transform: scale(1.2);
+}
+
 .flexible {
     background-image:url('../images/animation.gif') !important;
 }
